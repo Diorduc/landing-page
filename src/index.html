@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <!-- Website Header -->
-   <header class="header-container">
+    <header class="header-container">
         <img src="./images/logo.png" alt="SlotsByDiorduc logo" class="logo">
         <nav class="nav-menu">
             <ul>
@@ -20,51 +21,66 @@
                 <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
         </nav>
-   </header>
-   <!-- Website Hero Section -->
-   <section class="hero-container">
+    </header>
+
+    <!-- Website Hero Section -->
+    <section class="hero-container">
         <h1 class="hero-title">Spin and WIN!</h1>
         <p class="hero-subtext">The best online slots are waiting for you!</p>
         <button class="hero-button">Play NOW!</button>
         <img class="hero-slot-machine" src="./images/single-coin-machines.jpg" alt="Slot machine with jackpot light">
-   </section>
+    </section>
 
-   <!-- Website Games Section -->
-   <section class="games-section">
-    <h2 class="games-title">Choose your favorite game</h2>
-    <div class="games-grid"></div>
-        <article class="fruity-jackpot">
-            <img src="..." alt="Fruity Jackpot">
-            <h3>Fruity Jackpot</h3>
-            <p>Spin and win fruits!</p>
-            <button class="game-button">Play</button>
-        </article>
-   <!-- Cards Zone -->
-        <article class="diamond-spin">
-            <img src="..." alt="Diamond Spin">
-            <h3>Diamond Spin</h3>
-            <p>Find the Diamonds</p>
-            <button class="game-button">Play</button>
-        </article>
+    <!-- Website Games Section -->
+    <section class="games-section">
+        <h2 class="games-title">Choose your favorite game</h2>
+        
+        <div class="games-grid">
+            <article class="fruity-jackpot">
+                <picture>
+                    <source srcset="images/fruity-jackpot.webp" type="image/webp">
+                    <source srcset="images/fruity-jackpot.png" type="image/png">
+                    <img src="images/fruity-jackpot.png" alt="Fruity Jackpot slot machine" loading="lazy">
+                </picture>
+                <h3>Fruity Jackpot</h3>
+                <p>Spin and win fruits!</p>
+                <button class="game-button">Play</button>
+            </article>
 
-        <article class="wild adventures">
-            <img src="..." alt="Wild Adventures">
-            <h3>Wild Adventure</h3>
-            <p>Tame The Jungle!</p>
-            <button class="game-button">Play</button>
-        </article>
+            <article class="diamond-spin">
+                <picture>
+                    <source srcset="images/diamond-spin.webp" type="image/webp">
+                    <source srcset="images/diamond-spin.jpg" type="image/jpeg">
+                    <img src="images/diamond-spin.jpg" alt="Diamond Spin slot machine" loading="lazy">
+                </picture>
+                <h3>Diamond Spin</h3>
+                <p>Find the Diamonds</p>
+                <button class="game-button">Play</button>
+            </article>
 
-        <article class="golden-reels">
-            <img src="..." alt="Golden Reels">
-            <h3>Golden Reels</h3>
-            <p>Lucky Gold</p>
-            <button class="game-button">Play</button>
-        </article>
+            <article class="wild-adventures">
+                <picture>
+                    <source srcset="images/wild-adventures.webp" type="image/webp">
+                    <source srcset="images/wild-adventures.jpg" type="image/jpeg">
+                    <img src="images/wild-adventures.jpg" alt="Wild Adventure slot machine" loading="lazy">
+                </picture>
+                <h3>Wild Adventure</h3>
+                <p>Tame The Jungle!</p>
+                <button class="game-button">Play</button>
+            </article>
 
-
-
-    </div>
-   </section>
+            <article class="golden-reels">
+                <picture>
+                    <source srcset="images/golden-reels.webp" type="image/webp">
+                    <source srcset="images/golden-reels.jpg" type="image/jpeg">
+                    <img src="images/golden-reels.jpg" alt="Golden Reels slot machine" loading="lazy">
+                </picture>
+                <h3>Golden Reels</h3>
+                <p>Lucky Gold</p>
+                <button class="game-button">Play</button>
+            </article>
+        </div>
+    </section>
 
 </body>
 </html>
